@@ -1,6 +1,13 @@
 color-white = #ffffff
 color-1 = #f0f0f0 
 
+/* MIXINS */
+shadow(spread, opacity)
+  -webkit-box-shadow:  0px 0px spread 0px rgba(0, 0, 0, opacity);
+  box-shadow:  0px 0px spread 0px rgba(0, 0, 0, opacity);
+
+/* CSS */
+
 body
   font-family: 'Graduate', Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif
   background:color-1
@@ -12,9 +19,12 @@ body
 .center
   text-align: center
 
+
 #page
   background:color-white
   padding:1.61em
+  margin: 0.61em auto
+  shadow(10px, 0.3)
 
 #vs
   font-size:3em
