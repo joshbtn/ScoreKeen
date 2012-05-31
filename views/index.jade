@@ -1,12 +1,14 @@
 div#page.container
-  h1= title
+  h1.page-header= title
   div.row
-    div.span6
+    div.span5
       h2 good guys
       div.progress.progress-striped.active.progress-warning
         div.bar(style='width:40%')
       p.center.score 4
-    div.span6
+    div.span2
+      h2#vs.center VS.
+    div.span5
       h2 bad guys
       div.progress.progress-striped.active.progress-success
         div.bar(style='width:90%')
