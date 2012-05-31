@@ -1,8 +1,5 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-  color: #00B7FF;
-}
+body{font-family:'Graduate',Rockwell,"Courier Bold",Courier,Georgia,Times,"Times New Roman",serif}
+h1{font-family:'Monofett',"Arial Rounded MT Bold","Helvetica Rounded",Arial,sans-serif}
+.score{font-size:4em}
+.center{text-align:center}
+#page{background:#f0f0f0;padding:1.61em}
