@@ -1,5 +1,5 @@
 body{font-family:'Graduate',Rockwell,"Courier Bold",Courier,Georgia,Times,"Times New Roman",serif;background:#f0f0f0}
-.score{font-size:4em}
+.score{font-size:4em;line-height:1em}
 .center{text-align:center}
 #page{background:#fff;padding:1.61em}
 #vs{font-size:3em;padding:.61em 0}
