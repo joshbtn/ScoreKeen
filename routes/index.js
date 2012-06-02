@@ -1,5 +1,4 @@
-var pg_config = require('pg_config.js')
-	, pg = require('pg');
+
 
 /*
  * GET home page.
