@@ -1,5 +1,4 @@
-var pg_config = require('../pg_config.js')
-	, pg = require('pg');
+app.get('/', routes.index);
 
 /*
  * GET home page.
