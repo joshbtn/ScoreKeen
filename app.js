@@ -32,8 +32,8 @@ app.configure('production', function(){
   app.use(express.static(__dirname + '/public'));
 });
 
-require('./boot')(app);
-
+app.get('/', routes.index);
+//require('./boot')(app);
 //app.get('/ws/:servicename', function(req, res){res.send("works")});
 
 // Listen
