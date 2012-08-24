@@ -4,6 +4,7 @@
  */
 
 var express = require('express')
+  , passport = require('passport')
   , routes = require('./routes');
 
 var app = module.exports = express.createServer();
@@ -15,6 +16,8 @@ app.use(express.bodyParser());
 app.use(express.methodOverride());
 app.use(express.cookieParser());
 app.use(express.session({ secret: "32b919d18cfaca89383f6000dcc9c031_YAY" }));
+app.use(passport.initialize());
+app.use(passport.session());
 app.use(app.router);
 app.use(require("stylus").middleware({
   src: __dirname + "/public",
