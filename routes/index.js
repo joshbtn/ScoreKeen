@@ -5,8 +5,7 @@ var pg = require('pg')
 /*
  * GET home page.
  */
-
-exports.index = function(req, res){
+exports.landing = function(req, res){
     var MAX_SCORE = 10
         score1 = 0
         , score2 = 0
