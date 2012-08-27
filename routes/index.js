@@ -25,9 +25,9 @@ exports.index = function(req, res){
                 title: 'Foosball'
                 , score1: score1
                 , score2: score2
-                , bar1Width: Math.min( (score1 / MAX_SCORE)* 100, 10 )
+                , bar1Width: Math.min( (score1 / MAX_SCORE) * 100, 100 )
                 , bar1Color: score1 > score2 ? 'progress-success' : 'progress-warning'
-                , bar2Width: Math.min( (score2 / MAX_SCORE)* 100, 10 )
+                , bar2Width: Math.min( (score2 / MAX_SCORE) * 100, 100 )
                 , bar2Color: score1 < score2 ? 'progress-success' : 'progress-warning'
             });
         });
