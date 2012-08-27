@@ -4,16 +4,16 @@ div#page.container
     div.span5
       h2 good guys
       div.progress.progress-striped.active.progress-success
-        div.bar(style='width:90%')
-      p.center.score 9
+        div#bar1.bar(style='width:' + bar1Width + '%')
+      p.center.score= score1
       //-p.center
         a.btn.btn-success Add A Win
     div.span2
       h2#vs.center VS.
     div.span5
       h2 bad guys
-      div.progress.progress-striped.active.progress-warning
-        div.bar(style='width:80%')
-      p.center.score 8
+      div(class='progress progress-striped active ' + bar2Color)
+        div#bar2.bar(style='width:' + bar2Width + '%')
+      p.center.score= score2
       //-p.center
         a.btn.btn-success Add A Win
