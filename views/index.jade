@@ -3,7 +3,7 @@ div#page.container
   div.row
     div.span5
       h2 good guys
-      div.progress.progress-striped.active.progress-success
+      div(class='progress progress-striped active ' + bar1Color)
         div#bar1.bar(style='width:' + bar1Width + '%')
       p.center.score= score1
       //-p.center
