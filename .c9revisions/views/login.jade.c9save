@@ -1,0 +1,1 @@
+{"ts":1346181833004,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"div#page.container\r\n  h1.page-header= title\r\n  form.form-inline\r\n    input(type=\"text\", placeholder=\"email\")\r\n    input(type=\"password\", placeholder=\"password\")\r\n    button.btn login\r\n"]],"start1":0,"start2":0,"length1":0,"length2":184}]],"length":184}

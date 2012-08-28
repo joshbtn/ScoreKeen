@@ -41,12 +41,14 @@ app.get('/', routes.index.landing);
 //Login
 app.get('/login', routes.login.landing);
 
-//app.get('/login', routes.login);
-//passport.authenticate('local', { failureRedirect: '/login' })
-//require('./boot')(app);
-//app.get('/ws/:servicename', function(req, res){res.send("works")});
+//Register
+app.get('/register', routes.register.landing);
 
-// Listen
+//Manage
+app.get('/manage', routes.manage.landing);
+
+console.log(routes);
+
+// Start Listenting
 app.listen(process.env.PORT || process.env.C9_PORT || 3000);
-
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
